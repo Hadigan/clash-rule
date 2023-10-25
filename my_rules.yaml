@@ -1,0 +1,2 @@
+rules:
+  - DOMAIN-SUFFIX,deepl.com,Proxy
