@@ -3,4 +3,4 @@ proxies:
 proxy-groups:
   - {name: Hadigan, type: select, proxies: [Proxy, DIRECT]}
 rules:
-  - DOMAIN-SUFFIX,deepl.com,Proxy
+  - DOMAIN-SUFFIX,deepl.com,Hadigan
