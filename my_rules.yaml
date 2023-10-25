@@ -1,2 +1,6 @@
+proxies:
+  - { server: 183.240.220.192, port: 262, name: '🇷🇺 俄罗斯 IEPL [01] [Air]', type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, udp: false, plugin: obfs, plugin-opts: { mode: tls, host: d389effb277c3c58794a7fb1a49718c7132786.wns.windows.com } }
+proxy-groups:
+  - {name: Hadigan, type: select, proxies: [Proxy, DIRECT]}
 rules:
   - DOMAIN-SUFFIX,deepl.com,Proxy
